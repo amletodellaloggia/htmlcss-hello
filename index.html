@@ -1,33 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Hello HTML</title>
-</head>
-<body>
-<!-- Sezione Header -->
-	<header>
-		<h1>Produzione 2019</h1>
-	<hr>
-	</header>
-<!-- Main Content-->
-<main>
-	<!-- Sezione Vegetale #1 -->
-	<section>
-		<h3>Zucchine</h3>
-		<!-- Contenitore Immagine/i -->
-		<div>
-		<img src="img/veg1.png" alt="zucchine">
-		</div>
-		<p>Coltivare in terreno molto ricco di materia organica e non coltivare dopo Solnacce o piante della stessa famiglia delle cucurbitacce.</p>
-		<ul><b>Varietà:</b>Zucchina chiara di Faenza</ul>
-		<ul><b>Periodo di Semina</b>Marzo / Aprile</ul>
-		<ul><b>Primo raccolto:</b>Fine Aprile</ul>
-		<ul><b>Ultimo raccolto:</b>Fine Luglio</ul>
-		<ul><b>Raccolto:</b></ul>
-	</section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello HTML</title>
+  </head>
+  <body>
+    <!-- Sezione Header -->
+    <header>
+      <h1>Produzione 2019</h1>
+      <hr />
+    </header>
+    <!-- Main Content-->
+    <main>
+      <!-- Sezione Vegetale #1 -->
+      <section>
+        <h3>Zucchine</h3>
+        <!-- Contenitore Immagine/i -->
+        <div>
+          <img src="img/veg1.png" alt="zucchine" />
+        </div>
+        <p>
+          Coltivare in terreno molto ricco di materia organica e non coltivare
+          dopo Solnacce o piante della stessa famiglia delle cucurbitacce.
+        </p>
+		<!-- Lista con inclusa Tabella -->
+        <ul>
+          <li><b>Varietà: </b>Zucchina chiara di Faenza</li>
+          <li><b>Periodo di Semina: </b>Marzo / Aprile</li>
+          <li><b>Primo raccolto: </b>Fine Aprile</li>
+          <li><b>Ultimo raccolto: </b>Fine Luglio</li>
+          <li><b>Raccolto: </b></li>
+          <!-- Tabella di 'Raccolto' -->
+          <table>
+            <tbody>
+              <tr>
+                <td>Dimensione</td>
+                <td>Quantità</td>
+              </tr>
+              <tr>
+                <td>Piccole (10cm)</td>
+                <td>16</td>
+              </tr>
+              <tr>
+                <td>Medie (11-16cm)</td>
+                <td>26</td>
+              </tr>
+              <tr>
+                <td>Grandi (>16cm)</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+				<td>51</td>
+              </tr>
+            </tbody>
+          </table>
+        </ul>
+		<a href="#"> -- > Acquista Semi <-- </a>
+      </section>
 
-</main>
-</body>
+    </main>
+  </body>
 </html>
